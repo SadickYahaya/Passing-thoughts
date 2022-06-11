@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { AddThoughtForm } from './AddThoughtForm';
 import { Thought } from './Thought';
 import { generateId, getNewExpirationTime } from './utilities';
+import './styles.css'
 
 function App() {
   const [thoughts, setThoughts] = useState([
